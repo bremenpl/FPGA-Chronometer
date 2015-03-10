@@ -1,0 +1,27 @@
+
+
+NET "anodes[0]" LOC = F12;
+NET "anodes[1]" LOC = J12;
+NET "anodes[2]" LOC = M13;
+NET "anodes[3]" LOC = K14;
+NET "leds[0]" LOC = L14;
+NET "leds[1]" LOC = H12;
+NET "leds[2]" LOC = N14;
+NET "leds[3]" LOC = N11;
+NET "leds[4]" LOC = P12;
+NET "leds[5]" LOC = L13;
+NET "leds[6]" LOC = M12;
+NET "colon" LOC = N13;
+NET "CLK" LOC = B8;
+NET "pb1" LOC = A7;
+NET "pb2" LOC = M4;
+
+
+# PlanAhead Generated physical constraints 
+
+NET "debug_led[0]" LOC = G1;
+NET "debug_led[1]" LOC = P4;
+NET "debug_led[2]" LOC = N4;
+NET "debug_led[3]" LOC = N5;
+NET "debug_led[4]" LOC = P6;
+NET "debug_led[5]" LOC = P7;

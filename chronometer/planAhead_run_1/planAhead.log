@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Jan 16 13:26:10 2013
+# Process ID: 7152
+# Log file: E:/Dropbox/programowanie/FPGA projects/chronometer/planAhead_run_1/planAhead.log
+# Journal file: E:/Dropbox/programowanie/FPGA projects/chronometer/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {E:/Dropbox/programowanie/FPGA projects/chronometer/pa.fromHdl.tcl}
+# create_project -name chronometer -dir "E:/Dropbox/programowanie/FPGA projects/proj1counter/planAhead_run_2" -part xc3s100ecp132-4
+Parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [F:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 408.285 ; gain = 68.043
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "chronometer.ucf" [current_fileset -constrset]
+Adding file 'E:/Dropbox/programowanie/FPGA projects/chronometer/proj1counter.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {chronometer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top chronometer $srcset
+# add_files [list {chronometer.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "F:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "F:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "E:/Dropbox/programowanie/FPGA projects/chronometer/proj1counter.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library F:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [F:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [F:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from F:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : F:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library F:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [E:/Dropbox/programowanie/FPGA projects/chronometer/proj1counter.ucf]
+Finished Parsing UCF File [E:/Dropbox/programowanie/FPGA projects/chronometer/proj1counter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 19e804ee
+open_rtl_design: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 527.496 ; gain = 119.008
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

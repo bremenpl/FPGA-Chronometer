@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Wed Jan 16 13:26:10 2013
+# Process ID: 7152
+# Log file: E:/Dropbox/programowanie/FPGA projects/chronometer/planAhead_run_1/planAhead.log
+# Journal file: E:/Dropbox/programowanie/FPGA projects/chronometer/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {E:/Dropbox/programowanie/FPGA projects/chronometer/pa.fromHdl.tcl}

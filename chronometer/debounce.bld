@@ -1,0 +1,178 @@
+Release 14.2 ngdbuild P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: f:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc chronometer.ucf -p xc3s100e-cp132-4
+debounce.ngc debounce.ngd
+
+Reading NGO file "E:/Dropbox/programowanie/FPGA
+projects/chronometer/debounce.ngc" ...
+Loading design module "E:\Dropbox\programowanie\FPGA
+projects\chronometer/debounce.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "chronometer.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "anodes[0]" LOC = F12;>
+   [chronometer.ucf(3)]: NET "anodes[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "anodes[0]" LOC = F12;> [chronometer.ucf(3)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "anodes[1]" LOC = J12;>
+   [chronometer.ucf(4)]: NET "anodes[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "anodes[1]" LOC = J12;> [chronometer.ucf(4)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "anodes[2]" LOC = M13;>
+   [chronometer.ucf(5)]: NET "anodes[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "anodes[2]" LOC = M13;> [chronometer.ucf(5)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "anodes[3]" LOC = K14;>
+   [chronometer.ucf(6)]: NET "anodes[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "anodes[3]" LOC = K14;> [chronometer.ucf(6)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[0]" LOC = L14;>
+   [chronometer.ucf(7)]: NET "leds[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[0]" LOC = L14;> [chronometer.ucf(7)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[1]" LOC = H12;>
+   [chronometer.ucf(8)]: NET "leds[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[1]" LOC = H12;> [chronometer.ucf(8)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[2]" LOC = N14;>
+   [chronometer.ucf(9)]: NET "leds[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[2]" LOC = N14;> [chronometer.ucf(9)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[3]" LOC = N11;>
+   [chronometer.ucf(10)]: NET "leds[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[3]" LOC = N11;> [chronometer.ucf(10)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[4]" LOC = P12;>
+   [chronometer.ucf(11)]: NET "leds[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[4]" LOC = P12;> [chronometer.ucf(11)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[5]" LOC = L13;>
+   [chronometer.ucf(12)]: NET "leds[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[5]" LOC = L13;> [chronometer.ucf(12)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "leds[6]" LOC = M12;>
+   [chronometer.ucf(13)]: NET "leds[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "leds[6]" LOC = M12;> [chronometer.ucf(13)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "colon" LOC = N13;>
+   [chronometer.ucf(14)]: NET "colon" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "colon" LOC = N13;> [chronometer.ucf(14)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CLK" LOC = B8;>
+   [chronometer.ucf(15)]: NET "CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CLK" LOC = B8;> [chronometer.ucf(15)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "pb1_true" LOC = A7;>
+   [chronometer.ucf(16)]: NET "pb1_true" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "pb1_true" LOC = A7;> [chronometer.ucf(16)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "pb2_true" LOC = M4;>
+   [chronometer.ucf(17)]: NET "pb2_true" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "pb2_true" LOC = M4;> [chronometer.ucf(17)]' could not be found and so
+   the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:605 - logical root block 'debounce' with type 'debounce' is
+   unexpanded. Symbol 'debounce' is not supported in target 'spartan3e'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    16
+  Number of warnings:  16
+
+Total memory usage is 155132 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "debounce.bld"...
